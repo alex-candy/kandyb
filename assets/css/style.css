@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  background: #E9967A;
+}
+div {
+  width: 700px;
+  height: 700px;
+  transform: translate(-50%, -50%);
+  position: absolute;
+background: #FFA07A; 
+border-radius: 10%; 
+  top: 50%; 
+  left: 50%;
+}
+span {
+  display: block;
+  position: absolute;
+  width: 30%;
+  height: 30%;
+  border-radius: 50%;
+  box-shadow: 2px 2px 3px rgba(0,0,0,.4);
+}
+
+.one {
+  background: #556B2F;
+  animation: run1 6s infinite 0.45s ease-in-out;
+}
+.two {
+  background: #6B8E23;
+  animation: run 6s infinite 0.7s ease-in-out;
+}
+.three {
+  background: #9ACD32;
+  animation: run 6s infinite 1.0s ease-in-out;
+}
+.four {
+  background: #6B8E23;
+  animation: run 6s infinite 1.3s ease-in-out;
+}
+.five {
+  background: #9ACD32;
+  animation: run 6s infinite 1.6s ease-in-out;
+}
+.six {
+  background: #6B8E23;
+  animation: run 6s infinite 1.9s ease-in-out;
+}
+.seven {
+  background: #9ACD32;
+  animation: run1 6s infinite 2.1s ease-in-out;
+}
+
+
+@keyframes run {
+  0% {
+    transform: translate(0%);
+
+  }
+  12.5% {
+    transform: translate(110%); 
+
+  }
+   25% {
+    transform: translate(220%); 
+
+  }
+    37.5% {
+    transform: translate(220%,110%); 
+
+  }
+  50% {
+    transform: translate(220%, 220%);
+  }
+  
+  62.5% {
+    transform: translate(110%, 220%); 
+  }
+  
+  75% {
+    transform: translate(0%, 220%); 
+  }
+  87.5% {
+    transform: translate(0%, 110%); 
+  }
+  100% {
+    transform: translate(0%, 0%); 
+  }
+}
+@keyframes run1{
+	
+	0% {
+    transform: translate(0%) scale(0.8);
+
+  }
+  12.5% {
+    transform: translate(110%) scale(0.85); 
+
+  }
+   25% {
+    transform: translate(220%) scale(0.85); 
+
+  }
+    37.5% {
+    transform: translate(220%,110%) scale(0.85); 
+
+  }
+  50% {
+    transform: translate(220%, 220%) scale(0.85);
+  }
+  
+  62.5% {
+    transform: translate(110%, 220%) scale(0.85); 
+  }
+  
+  75% {
+    transform: translate(0%, 220%) scale(0.85); 
+  }
+  87.5% {
+    transform: translate(0%, 110%) scale(0.85); 
+  }
+  100% {
+    transform: translate(0%, 0%) scale(0.85); 
+  }
+  
+ 

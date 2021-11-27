@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width" />
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+	<link rel="stylesheet" type="text/css" href="assets/css/adapt768.css" />
+	<link rel="stylesheet" type="text/css" href="assets/css/adapt375.css" />
+	
+	<title>Ветеринарная клиника</title>
+</head>
+<body>
+
+
+<div>
+  <span class="one"></span>
+  <span class="two"></span>
+  <span class="three"></span>
+  <span class="four"></span>
+  <span class="five"></span>
+  <span class="six"></span>
+  <span class="seven"></span>
+ </div>
+</body>
+</html>

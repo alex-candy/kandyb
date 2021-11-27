@@ -1,0 +1,5 @@
+https://html5book.ru/css3-animation/#keyframes
+
+https://habr.com/ru/post/135816/
+
+https://www.dejurka.ru/css/animating-elements-in-arcs/
